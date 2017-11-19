@@ -7,5 +7,5 @@ def key_for_min_value(name_hash)
     array << value
   end
   array.sort
-  return array[0]
+  name_hash.key(array[0])
 end
